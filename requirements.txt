@@ -3,3 +3,5 @@ keras==2.13.1
 streamlit
 numpy
 pandas
+scikit-learn
+
