@@ -3,6 +3,7 @@ import numpy as np
 from tensorflow.keras.models import load_model
 
 
+
 model = load_model("ANN_model.h5", compile=False)
 
 
@@ -59,4 +60,5 @@ if st.button("Predict Churn"):
         st.error("⚠️ The customer is **likely to churn**.")
     else:
         st.success("✅ The customer is **not likely to churn**.")
+
 
